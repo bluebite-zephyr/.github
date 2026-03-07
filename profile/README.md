@@ -12,9 +12,9 @@ Our repositories provide out-of-the-box support for the **Nordic nRF Connect SDK
 
 These repositories contain the fundamental building blocks for using the Bluebite54, including board definitions, devicetree overlays, and custom drivers.
 
-* **[bluebite-hw](./bluebite-hw)**
+* **[bluebite-hw](https://github.com/bluebite-zephyr/bluebite-hw)**
     The core board support repository. It contains the Zephyr board folders for all supported BlueBite variants, as well as the shield definitions for our supported Feather Wings.
-* **[bluebite-drivers](./bluebite-drivers)**
+* **[bluebite-drivers](https://github.com/bluebite-zephyr/bluebite-drivers)**
     The custom driver repository. It houses all out-of-tree drivers required by the BlueBite board and its supported Wings, ensuring seamless integration with Zephyr's device model.
 
 ---
@@ -23,13 +23,13 @@ These repositories contain the fundamental building blocks for using the Bluebit
 
 We provide several `west` workspace repositories tailored to specific use cases. Each sample is pre-configured for the nRF Connect SDK (NCS) and demonstrates how to leverage the BlueBite54's features and expansion Wings.
 
-* **[bluebite-sample](./bluebite-sample)**
+* **[bluebite-sample](https://github.com/bluebite-zephyr/bluebite-sample)**
     **The best place to start.** This foundational sample helps you verify your setup and test the basic onboard hardware of the BlueBite54. 
-* **[fem-sample](./fem-sample)**
+* **[fem-sample](https://github.com/bluebite-zephyr/fem-sample)**
     A sample demonstrating how to integrate and use a Front-End Module (FEM) shield. It is pre-configured for the optional **nRF21540 Wing** to boost your RF range.
-* **[walkietalkie-sample](./walkietalkie-sample)**
+* **[walkietalkie-sample](https://github.com/bluebite-zephyr/walkietalkie-sample)**
     An advanced Bluetooth LE Audio sample. This project configures two BlueBite54 devices to act as walkie-talkies using an optional stereo codec shield (e.g., the **MAX9867 Wing**).
-* **[lora-sample](./lora-sample)**
+* **[lora-sample](https://github.com/bluebite-zephyr/lora-sample)**
     A sample demonstrating long-range communication using LoRa. This project utilizes the Zephyr USP within NCS and is configured to work with a LoRa shield (e.g., the **LR1121 Wing**).
 
 ---
@@ -55,4 +55,4 @@ From there, you can build and flash using standard `west build` and `west flash`
 
 ---
 
-*Happy Hacking!* 
+*Happy Hacking!*
