@@ -42,7 +42,7 @@ To try out the basic sample, run the following commands:
 
 ```bash
 # Initialize the west workspace
-west init -m [https://github.com/bluebite-zephyr/bluebite-sample](https://github.com/bluebite-zephyr/bluebite-sample) --mr main my-bluebite-workspace
+west init -m https://github.com/bluebite-zephyr/bluebite-sample --mr main my-bluebite-workspace
 
 # Move into the workspace directory
 cd my-bluebite-workspace
