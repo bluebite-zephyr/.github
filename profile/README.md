@@ -16,6 +16,8 @@ These repositories contain the fundamental building blocks for using the BlueBit
     The core board support repository. It contains the Zephyr board folders for all supported **BlueBite** variants, as well as the shield definitions for our supported Feather Wings.
 * **[bluebite-drivers](https://github.com/bluebite-zephyr/bluebite-drivers)**
     The custom driver repository. It houses all out-of-tree drivers required by the **BlueBite** family of boards and its supported Wings, ensuring seamless integration with Zephyr's device model.
+* **[bluebite-decadriver](https://github.com/bluebite-zephyr/bluebite-decadriver)**
+    A specialized Zephyr driver module for the **Qorvo/Decawave DW3000** UWB transceiver, optimized for the **BlueBite** ecosystem.
 
 ---
 
@@ -29,6 +31,10 @@ We provide several `west` workspace repositories tailored to specific use cases.
     A local audio loopback sample for the **MAX9867 Wing**. It initializes the codec and routes microphone input directly to both playback channels.
 * **[fem-sample](https://github.com/bluebite-zephyr/fem-sample)**
     A sample demonstrating how to integrate and use a Front-End Module (FEM) Wing. It is pre-configured for the optional **nRF21540 Wing** to boost your RF range.
+* **[imu-sample](https://github.com/bluebite-zephyr/imu-sample)**
+    A demonstration of reading sensors on the **ICM42688 Wing** (accelerometer, gyroscope, pressure, and magnetic field).
+* **[uwb-sample](https://github.com/bluebite-zephyr/uwb-sample)**
+    A comprehensive Ultra-Wideband (UWB) sample integrating the **DWM3000 Radio Wing** for ranging and positioning.
 * **[walkietalkie-sample](https://github.com/bluebite-zephyr/walkietalkie-sample)**
     An advanced Bluetooth LE Audio sample. This project configures two **BlueBite54** devices to act as walkie-talkies using an optional stereo codec Wing (e.g., the **MAX9867 Wing**).
 * **[lora-sample](https://github.com/bluebite-zephyr/lora-sample)**
